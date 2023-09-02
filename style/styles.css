@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #efdce0;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flower-info{
+    width: 50%;
+    padding: 100px;
+}
+.flower-info h1{
+    font-size: 60px;
+}
+.flower-info p{
+    margin: 10px 0px;
+}
+.flower img{
+    max-width: 80%;
+    margin-left: 20px;
+    height: auto;
+}
+.btn-primary{
+    background-color: #E55473;
+    color: white;
+    margin-top: 20px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* main part */
+.main{
+      width: 1000px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.our-featured-flowers{
+    margin-top: 50px;
+}
+.our-featured-flowers >p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.flower-tree{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.flower-tree div{
+    width: 250px;
+    margin-left:10px;
+    background-color: #a07b83;
+    border-radius: 200px 200px 0px 0px;
+}
+.flower-tree img{
+    width: 200px;
+    height: 100%;
+}
+.flower-tree a{
+    display: block;
+}
+/*game*/
+.game-part{
+    background-color: #f4eeee;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border-radius: 10px;
+}
+.game-part div{
+    padding: 50px;
+}
+.game-part div a{
+    display: block;
+    text-decoration: none;
+}
+/* hot-deal-section */
+.hot-deal-section{
+    background-color: #f4eeee;
+
+}
+.extra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hot-deal{
+    padding: 50px 150px;
+}
+
+.hot-deal h3{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.off{
+    color: #E55473;
+}
+.hot-deal-section div> img{
+    height: 200px;
+}
+/* insta-section */
+.insta-section{
+    width: 1000px;
+    margin: 0 auto;
+}
+.instagrm{
+    text-align: center;
+    padding: 20px;
+}
+.instagrm h3{
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.instagrm >p{
+    font-size: 16px;
+    color: gray;
+}
+.instapic img{
+    width: 245px;
+}
+.instapic{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main1{
+    background-image: url("rectangle 9.png");
+    padding: 50px;
+
+}
+.main1 h1{
+    font-size: 30px;
+}
+.main1 input{
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.f-part{
+    padding: 100px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.f-part h1,p{
+    padding: 20px;
+}
+.f-part p{
+    font-size: 16px;
+}
